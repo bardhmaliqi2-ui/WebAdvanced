@@ -1,0 +1,30 @@
+article p{
+    background: blue;
+    color: white;
+    padding: 20px;
+}
+article > p{
+    background: red;
+}
+article ~ p{
+    background: purple;
+    color: white;
+    padding: 20px;
+}
+article + p{
+    background: orange;
+}
+form{
+    margin-top: 20px;
+}
+input:invalid{
+    border: 2px solid red;
+}
+span:first-of-type{
+    background:black;
+    color: white;
+    padding: 10px;
+}
+div{
+    opacity: 0.5;
+}
