@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: #e54a50;
+    background-color: #B52F21;
     color: white;
 }
 .container{
@@ -132,7 +132,7 @@ h1{
     line-height: 1.6;
     margin-bottom: 15px;
 }
-#contact-us {
+#contact-us{
     max-width: 800px;
     margin: 50px auto;
     padding: 20px;
@@ -167,22 +167,33 @@ h1{
     padding: 25px 10px;
     margin-top: 50px;
 }
-
-#site-footer .social-icons {
+#site-footer .social-icons{
     margin: 10px 0;
 }
-
-#site-footer .social-icons a {
+#site-footer .social-icons a{
     color: #ff6f00;
     text-decoration: none;
     margin: 0 10px;
     font-weight: bold;
     transition: 0.3s;
 }
-#site-footer .social-icons a:hover {
+#site-footer .social-icons a:hover{
     color: #fff;
     text-decoration: underline;
 }
-#site-footer p {
+footer p{
     margin: 5px 0;
+}
+#site-footer {
+    background-color: #B52F21;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+#main-footer {
+    background-color: #B52F21;
+}
+#recipes p{
+    font-size: 18px;
+    color: #333;
 }
