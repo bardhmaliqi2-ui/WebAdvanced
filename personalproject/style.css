@@ -94,6 +94,14 @@ nav ul li a:hover{
     font-size: 16px;
     color: #333;
 }
+.item{
+    width: 200px;
+    text-align: center;
+}
+.item img{
+    width: 100%;
+    height: auto;
+}
 .contact{
     padding: 40px;
     text-align: center;
@@ -132,33 +140,89 @@ h1{
     line-height: 1.6;
     margin-bottom: 15px;
 }
-#contact-us{
-    max-width: 800px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #fff8f0;
-    border-radius: 10px;
-    box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
-    color: #333;
+#contact-us {
+    background-color: #fff;
+    padding: 40px;
     text-align: center;
+    max-width: 900px;
+    margin: 50px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
-#contact-us h1{
-    color: #ff6f00;
-    font-size: 36px;
+#contact-us h1 {
+    font-size: 2px;
+    color: #333;
     margin-bottom: 20px;
 }
-#contact-us{
-    font-size: 18px;
-    line-height: 1.6;
+#contact-us h2 {
+    font-size: 1.5px;
+    color: #ff6600;
+    margin-top: 30px;
     margin-bottom: 10px;
 }
-#contact-us a{
-    color: #ff6f00;
-    text-decoration: none;
-    font-weight: bold;
+#contact-us p {
+    font-size: 1px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
 }
-#contact-us a:hover{
+a {
+    color: #ff6600;
+    text-decoration: none;
+}
+a:hover {
     text-decoration: underline;
+}
+form {
+    display: grid;
+    gap: 20px;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+label {
+    font-size: 1px;
+    margin-bottom: 8px;
+    color: #333;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1px;
+    color: #333;
+}
+textarea{
+    resize: vertical;
+}
+button{
+    background-color: #ff6600;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 1px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover{
+    background-color: #e55b00;
+}
+@media (max-width: 768px) {
+    #contact-us{
+        padding: 20px;
+    }
+
+    form{
+        max-width: 100%;
+        padding: 0 10px;
+    }
 }
 #site-footer {
     background-color: #222;
@@ -196,4 +260,45 @@ footer p{
 #recipes p{
     font-size: 18px;
     color: #333;
+}
+.price{
+    font-weight: bold;
+    color: #f9f9f9;
+}
+h1 h2 h3{
+    font-family: Arial,sans-serif;
+}
+.testimonials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;  
+    margin-top: 50px; 
+}
+blockquote{
+    border-left: 4px solid #888;
+    margin: 20px 0;
+    padding-left: 20px;
+    font-style: italic;
+    background-color: #f9f9f9;
+}
+blockquote:hover{
+    transform: translateY(-10px);  
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); 
+}
+blockquote p{
+    margin: 0;
+    font-size: 1.2px; 
+    color: #555;  
+}
+blockquote footer{
+    text-align: right;
+    font-weight: bold;
+    font-size: 0.9px;
+    color: #555;
+}
+@media (max-width: 770px){
+    .testimonials blockquote{
+        width: 90%;
+    }
 }
