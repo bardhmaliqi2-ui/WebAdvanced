@@ -36,4 +36,13 @@ function validation(){
         }
         return false;
     } 
+        else{
+            document.getElementById("name_error").style.visibility="hidden";
+            document.getElementById("name").style.borderColor="black";
+            document.getElementById("age_error").style.visibility="hidden";
+            document.getElementById("age").style.borderColor="black";
+            document.getElementById("city_error").style.visibility="hidden";
+            document.getElementById("city").style.borderColor="black";
+            return true;
+        }
 }
