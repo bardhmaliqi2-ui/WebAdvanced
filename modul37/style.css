@@ -1,0 +1,82 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+    background: #f5f6fa;
+}
+#sort{
+    padding: 0;
+    margin-bottom: 30px;
+}
+#sort li{
+    list-style: none;
+    background: #686de0;
+    color: white;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    cursor: move;
+}
+.ui-sort-placeholder{
+    background: #dfe6e9;
+    visibility: visible;
+    height: 50px;
+}
+#accordion{
+    margin-bottom: 30px;
+}
+#accordion .ui-accordion-header{
+    background: #4834df;
+    color: white;
+    border: none;
+    padding: 15px;
+    margin-top: 5px;
+    border-radius: 4px;
+}
+#accordion .ui-accordion-header-active{
+    background: #0984e3;
+}
+#accordion .ui-accordion-content{
+    background: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+.ui-accordion-header-icon{
+    display: none;
+}
+#tabs{
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+#tabs .ui-widget-header{
+    background: white;
+    border: none;
+}
+#tabs .ui-tabs-nav{
+    background: white;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+#tabs .ui-tabs-nav li{
+    background: #ecf0f1;
+    border: 1px solid #ddd;
+    margin-right: 5px;
+}
+#tabs .ui-tabs-nav li a{
+    color: #333;
+    padding: 12px 20px;
+    text-decoration: none;
+}
+#tabs .ui-tabs-active{
+    background: #0984e3 !important;
+    border-color: #0984e3 !important;
+}
+#tabs .ui-tabs-active a{
+    color: white !important;
+}
+#tabs .ui-tabs-panel{
+    background: white;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+}
